@@ -1,0 +1,22 @@
+# Core RL & Environment
+gymnasium>=0.29.0
+stable-baselines3>=2.3.0
+
+# Data & Computation
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Training & Monitoring
+tensorboard>=2.13.0
+jupyter>=1.0.0
+
+# Optional: Hyperparameter tuning
+optuna>=3.0.0
+
+# Type checking (optional but recommended)
+mypy>=1.0.0
