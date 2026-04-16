@@ -1,18 +1,18 @@
 1. Mở terminal (Ctrl + `)
 
 2. tạo virtual environment
-python -m venv venv
+- lệnh:  python -m venv venv
 
 3. Kích hoạt môi trường ảo
-venv\Scripts\activate
-check: Kiểm tra kích hoạt:
+- lệnh: venv\Scripts\activate
+- Kiểm tra kích hoạt:
 Terminal sẽ hiển thị (venv) ở đầu dòng
 Ví dụ: (venv) C:\Users\YourName\Documents\agent-multiagent-for-jp>
 4. Setup VS dùng môi trường ảo này
 
 -  Mở Command Palette (Ctrl + Shift + P)
 - Gõ "Python: Select Interpreter"
--Chọn "./venv/bin/python" (hoặc ".\venv\Scripts\python.exe" trên Windows)
+- Chọn "./venv/bin/python" (hoặc ".\venv\Scripts\python.exe" trên Windows)
 - VSCode sẽ dùng Python từ venv này
 
 5. Cài đặt dependencies
